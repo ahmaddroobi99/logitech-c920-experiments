@@ -1,0 +1,34 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment settings
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local experiment outputs, videos, captures, and model checkpoints
+runs/
+*.mp4
+*.avi
+*.mov
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Unneeded upstream SAM 2 demo assets
+third_party/sam2/demo/
+third_party/sam2/notebooks/
+third_party/sam2/sav_dataset/example/
